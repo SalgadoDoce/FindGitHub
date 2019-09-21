@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>FindGitHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <hgroup>
+                <h1>FindGitHub</h1>
+                <h2>Find someone on GitHub's profile.</h2>
+            </hgroup>
+
+            <input type="text" id="inp-search" placeholder="Username">
+            <button id="btn-search">🔍</button>
+        </header>
+        
+        <div id="user-info">
+                <div id="user-name">
+                    <h1>Nickname</h1>
+                    <h2>Name</h2>
+                </div>
+                <div id="user-photo"></div>
+                <div id="user-bio">
+                        <i><p>...</p></i>
+                </div>
+                <div id="user-location">
+                    <p>...</p>
+                </div>
+                <div id="user-work">
+                        <p>...</p>
+                </div>
+                <div id="user-blog">
+                        <p>...</p>
+                </div>
+        </div>
+        <div id="following">
+            <h1>Following (0)</h1>
+        </div>
+        <div id="followed">
+                <h1>Followed by (0)</h1>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

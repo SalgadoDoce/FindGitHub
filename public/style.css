@@ -1,0 +1,201 @@
+/* https://css.30secondsofcode.org */
+
+
+
+/* https://css.30secondsofcode.org */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(120deg, rgba(220, 221, 225,1.0), rgba(245, 246, 250,1.0));
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+div#app {
+    background-image: linear-gradient(120deg, rgba(112, 111, 211,1.0), rgba(71, 71, 135,1.0));
+    width: 1100px;
+    height: 600px;
+    box-shadow: 0px 0px 2px rgba(47, 54, 64,1.0);
+}
+
+header {
+    background-image: linear-gradient(120deg, rgba(53, 59, 72,.9), rgba(47, 54, 64,.9));
+    margin-top: -22px;
+    box-shadow: 0px 0px 2px rgba(47, 54, 64,1.0);
+    height: 80px;
+}
+
+header h1, h2, input, button {
+    margin-left: 10px;
+}
+
+header h1 {
+    padding-top: 5px;
+    color: rgb(40, 44, 53);
+    margin-bottom: 0px;
+}
+
+header h2 {
+    color: rgba(127, 143, 166,1.0);
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+header input {
+    border: none;
+    width: 255px;
+    height: 30px;
+    margin-bottom: 5px;
+    outline: 0;
+    position: relative;
+    left: 25%;
+    top: -45px;
+    text-align: center;
+}
+
+header button {
+    border: none;
+    width: 25px;
+    height: 25px;
+    background: none;
+    margin-bottom: 5px;
+    outline: 0;
+    position: relative;
+    left: 21%;
+    top: -45px;
+}
+
+/* USER INFO */
+
+div#user-info {
+    display: inline-block;
+    border-bottom: 1px solid rgba(47, 54, 64,.5);
+    border-right: 1px solid rgba(47, 54, 64,.5);
+    padding-right: 20px;
+    width: 364.66px;
+    height: 520px;
+}
+
+div#user-info div#user-photo{
+    background-color: rgba(47, 54, 64,.5);
+    border: 1px solid rgba(47, 54, 64,.5);
+    margin-top: 40px;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    margin: 0;
+    margin-left: 25px;
+}
+
+div#following {
+    float: right;
+    width: 366.66px;
+    height: 520px;
+    position: relative;
+    border-right: 1px solid rgba(47, 54, 64,.5);
+    border-bottom: 1px solid rgba(47, 54, 64,.5);
+    left: -351px;
+}
+
+div#following h1 {
+    color: rgba(53, 59, 72,.7);
+    margin-bottom: 5px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+div#following div {
+    background-color: rgba(47, 54, 64,.5);
+    border: 1px solid rgba(47, 54, 64,.5);
+    margin: 0;
+    margin-top: 10px;
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    margin-left: 10px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+div#following img {
+    background-color: rgba(47, 54, 64,.5);
+    border: 1px solid rgba(47, 54, 64,.5);
+    margin: 0;
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+div#user-info div#user-photo img {
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    margin: 0;
+    margin-left: 0;
+}
+
+div#user-info div#user-name h1 {
+    color: rgba(53, 59, 72,.7);
+    margin-bottom: 0;
+    margin-left: 25px;
+}
+
+div#user-info div#user-name h2 {
+    color: rgba(53, 57, 68, .7);
+    margin-top: 0;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+div#user-info div#user-location, div#user-bio, div#user-work, div#user-blog {
+    color: rgba(53, 57, 68, .9);
+    margin-left: 35px;
+}
+
+div#followed {
+    float: right;
+    width: 366.66px;
+    height: 520px;
+    position: relative;
+    border-right: 1px solid rgba(47, 54, 64,.5);
+    border-bottom: 1px solid rgba(47, 54, 64,.5);
+    left: 0px;
+    top: -520px;
+}
+
+div#followed img {
+    background-color: rgba(47, 54, 64,.5);
+    border: 1px solid rgba(47, 54, 64,.5);
+    margin: 0;
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+div#followed h1 {
+    color: rgba(53, 59, 72,.7);
+    margin-bottom: 5px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+div#followed div {
+    background-color: rgba(47, 54, 64,.5);
+    border: 1px solid rgba(47, 54, 64,.5);
+    margin: 0;
+    margin-top: 10px;
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    margin-left: 10px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
